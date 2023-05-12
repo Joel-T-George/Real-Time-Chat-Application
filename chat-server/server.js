@@ -1,21 +1,19 @@
 require("dotenv").config()
+
 const express = require('express')
 const mongoose = require('mongoose');
 const User =  require('./models/User')
-console.log()
-const uri = process.env.DATABASE_URL;
 
-mongoose.connect(uri).then( 
+const URL = process.env.DATABASE_URL;
+const PORT = process.env.PORT;
+const app = express()
+app.use(express.json())
+
+mongoose.connect(URL).then( 
   ()=> console.log("Database successfully connected"),
   (e) => console.log(e)
 )
+const UsersRouter = require('./routes/User')
+app.use('/Users', UsersRouter)
 
-const app = express()
-
-app.get('/', function (req, res) {
-  res.send('Chat Server activiated')
-})
-app.get('/', function (req, res) {
-    res.send('Chat Server activiated')
-})
-app.listen(9000)
+app.listen(PORT)
