@@ -1,8 +1,15 @@
 require("dotenv").config()
 const express = require('express')
+const mongoose = require('mongoose');
+const User =  require('./models/User')
+console.log()
+const uri = process.env.DATABASE_URL;
 
+mongoose.connect(uri).then( 
+  ()=> console.log("Database successfully connected"),
+  (e) => console.log(e)
+)
 
-uri = process.env.DATABASE_URL
 const app = express()
 
 app.get('/', function (req, res) {
