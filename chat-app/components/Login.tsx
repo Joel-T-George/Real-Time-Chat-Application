@@ -1,13 +1,13 @@
 import React from "react";
 
-const Dashboard: React.FC<{}> = ()=>{
+const Login: React.FC<{}> = ()=>{
   return (
-    <div >
+    <div>
       "Dashboard"
     </div>
   )
 }
 
 
-export default Dashboard
+export default Login
    
