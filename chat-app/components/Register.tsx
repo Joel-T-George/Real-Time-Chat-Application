@@ -3,7 +3,11 @@ import React from "react";
 const RegisterHandler: React.FC<{}> = ()=>{
   return (
     <div>
-      "Dashboard"
+      <form action="post">
+        <input type="text" value="" />
+
+      </form>
+     
     </div>
   )
 }
