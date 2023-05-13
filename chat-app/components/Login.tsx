@@ -1,6 +1,6 @@
 import React from "react";
 
-const Login: React.FC<{}> = ()=>{
+const Loginhandler: React.FC<{}> = ()=>{
   return (
     <div>
       "Dashboard"
@@ -9,5 +9,5 @@ const Login: React.FC<{}> = ()=>{
 }
 
 
-export default Login
+export default Loginhandler
    

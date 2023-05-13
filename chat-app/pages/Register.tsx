@@ -1,10 +1,10 @@
 import React from "react";
-import Reg from './../components/Register'
+import RegisterHandler from './../components/Register'
 const Register: React.FC<{}> = ()=>{
   return (
     <div className="Login" >
       "Register"
-      <Reg/>
+      <RegisterHandler/>
 
     </div>
   )
