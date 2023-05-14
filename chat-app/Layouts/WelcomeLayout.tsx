@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from './../components/NonUserNavbar'
-import WelcomeLayoutRoute from "../Routelayout/WelcomeLayout";
+import WelcomeLayoutRoute from "./../Routelayout/WelcomeLayout";
 const WelcomeLayout: React.FC<{}> = ()=>{
   return (
     <>
