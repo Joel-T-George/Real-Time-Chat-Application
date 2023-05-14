@@ -7,6 +7,7 @@ export default {
     './node_modules/@my-company/tailwind-components/**/*.js'
   ],
   theme: {
+    
     extend: {},
   },
   plugins: [],
