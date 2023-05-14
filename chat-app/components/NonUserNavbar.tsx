@@ -12,7 +12,7 @@ const NonNavbar: React.FC<{}> = ()=>{
       <nav className="flex  md:justify-end space-x-4 md:m-0 ">
         <ul className="md:inline-flex "> {
         Navigation.map(([title, url]) => (
-          <li className="text-white   md:text-lg text-lg font-medium md:m-2 m-5">
+          <li key={title} className="text-white   md:text-lg text-lg font-medium md:m-2 m-5">
             <NavLink
 
               key={title} 
