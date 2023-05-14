@@ -5,7 +5,7 @@ import Contact from './../pages/DetailsPage/Contact'
 import Policy from './../pages/DetailsPage/Policy'
 import { Routes ,Route} from "react-router-dom";
 
-const Layout: React.FC<{}> = ()=>{
+const WelcomeLayoutRoute: React.FC<{}> = ()=>{
   return (
    
     <Routes>
@@ -18,5 +18,5 @@ const Layout: React.FC<{}> = ()=>{
 }
 
 
-export default Layout
+export default WelcomeLayoutRoute
    
