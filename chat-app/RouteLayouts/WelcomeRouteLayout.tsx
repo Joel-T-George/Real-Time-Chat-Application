@@ -1,8 +1,8 @@
 import React from "react";
-import Home from "./../pages/Home"
-import About from './../pages/DetailsPage/About'
-import Contact from './../pages/DetailsPage/Contact'
-import Policy from './../pages/DetailsPage/Policy'
+import Home from "../pages/Home"
+import About from '../pages/DetailsPage/About'
+import Contact from '../pages/DetailsPage/Contact'
+import Policy from '../pages/DetailsPage/Policy'
 import { Routes ,Route} from "react-router-dom";
 
 const WelcomeLayoutRoute: React.FC<{}> = ()=>{

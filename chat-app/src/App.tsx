@@ -1,10 +1,10 @@
-import { MemoryRouter, Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import Welcome from "../pages/Welcome"
 import Register from "../pages/Register"
 import Login from "../pages/Login"
 import Dashbaoard from '../pages/Dashboard'
 import NotFound from '../pages/NotFound'
-import WelcomeLayout from './../Routelayout/WelcomeLayout'
+
 
 function App() {
  
