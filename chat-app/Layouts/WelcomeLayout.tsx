@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from './../components/NonUserNavbar'
 import WelcomeLayoutRoute from "./../Routelayout/WelcomeRouteLayout"
 
-function WelcomeLayout() {
+const WelcomeLayout:React.FC<{}> = ()=> {
   return (
     <>
       <Navbar />
