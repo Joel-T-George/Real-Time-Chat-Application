@@ -1,13 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import WelcomeLayout from './../Layouts/WelcomeLayout'
+
+
+
 
 const Welcome: React.FC<{}> = ()=>{
   return (
-    <div className="Login" >
-        <Link to="/login">Login</Link>
-        <br></br>
-        <Link to= "/SignUp">Register</Link>
-    </div>
+    <>
+      <WelcomeLayout/>
+
+      
+      
+    </>
+    
+        
+   
   )
 }
 
